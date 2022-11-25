@@ -16,9 +16,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" index element={<Home />} />
-          <Route path="works" element={<Works />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/Anapaula-portfolio/" index element={<Home />} />
+          <Route path="/Anapaula-portfolio/works" element={<Works />} />
+          <Route path="/Anapaula-portfolio/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
