@@ -14,7 +14,7 @@ const Nav = () => {
               color: "white",
               textDecoration: "none",
             }}
-            to={"/"}
+            to={"/Anapaula-portfolio/"}
             relative="path"
           >
             Home
