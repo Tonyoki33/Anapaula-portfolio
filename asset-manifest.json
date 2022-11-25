@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Anapaula-portfolio/static/css/main.250c1e17.css",
-    "main.js": "/Anapaula-portfolio/static/js/main.b0a9d5d3.js",
+    "main.js": "/Anapaula-portfolio/static/js/main.a8657956.js",
     "static/js/787.92445bf8.chunk.js": "/Anapaula-portfolio/static/js/787.92445bf8.chunk.js",
     "static/media/icons8-instagram-viejo.svg": "/Anapaula-portfolio/static/media/icons8-instagram-viejo.acb6adbd3bd75591292882bd110e4598.svg",
     "static/media/logo.svg": "/Anapaula-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/icons8-linkedin.svg": "/Anapaula-portfolio/static/media/icons8-linkedin.2e149bae72123cb7b8a2d5b99d90b866.svg",
     "index.html": "/Anapaula-portfolio/index.html",
     "main.250c1e17.css.map": "/Anapaula-portfolio/static/css/main.250c1e17.css.map",
-    "main.b0a9d5d3.js.map": "/Anapaula-portfolio/static/js/main.b0a9d5d3.js.map",
+    "main.a8657956.js.map": "/Anapaula-portfolio/static/js/main.a8657956.js.map",
     "787.92445bf8.chunk.js.map": "/Anapaula-portfolio/static/js/787.92445bf8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.250c1e17.css",
-    "static/js/main.b0a9d5d3.js"
+    "static/js/main.a8657956.js"
   ]
 }
