@@ -1,0 +1,12 @@
+.contact-form{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.contact-form:has(input, label){
+  padding: 3rem;
+}
+

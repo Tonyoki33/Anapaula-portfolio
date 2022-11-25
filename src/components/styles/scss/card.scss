@@ -1,0 +1,38 @@
+.card-grid{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient($darkblue,$lightblue);
+}
+
+.card-grid::-webkit-scrollbar{
+    display: none;
+} 
+
+.card {
+    margin: 2rem;
+    overflow: hidden;
+    transition: transform 1000ms ease ;
+    box-shadow: 10px 5px 5px $darkblue;
+}
+
+
+
+.card-img {
+    height: 100vh;
+    position: relative;
+}
+
+.card p {
+    visibility: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    p {
+    visibility: visible;
+    }}

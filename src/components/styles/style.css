@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: 'Titillium Web', sans-serif; }
+
+body::-webkit-scrollbar {
+  display: none; }
+
+.card-grid {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: linear-gradient(#000063, #534bae); }
+
+.card-grid::-webkit-scrollbar {
+  display: none; }
+
+.card {
+  margin: 2rem;
+  overflow: hidden;
+  transition: transform 1000ms ease;
+  box-shadow: 10px 5px 5px #000063; }
+
+.card-img {
+  height: 100vh;
+  position: relative; }
+
+.card p {
+  visibility: hidden;
+  position: relative;
+  top: 50%;
+  left: 50%; }
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05); }
+  .card:hover p {
+    visibility: visible; }
+
+.contact-form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine; }
+
+.contact-form:has(input, label) {
+  padding: 3rem; }
+
+.main-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000063; }
+
+.txt-container {
+  display: flex;
+  flex-flow: column;
+  width: 50rem;
+  height: 40rem;
+  position: absolute;
+  pointer-events: none;
+  overflow-x: visible;
+  z-index: 2; }
+
+.home-title {
+  position: relative;
+  background: none;
+  color: #f6fcd6;
+  padding: 10rem 0 0 7rem; }
+
+.home-list {
+  color: #f6fcd6;
+  list-style-type: none;
+  padding: 0 0 0 5rem; }
+  .home-list li {
+    pointer-events: painted;
+    cursor: pointer;
+    font-size: 3rem;
+    margin: 1.5rem 5rem; }
+    .home-list li .menu--img_one, .home-list li .img-two, .home-list li .img-three {
+      left: 100%;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      overflow-x: hidden;
+      display: none; }
+  .home-list li:hover {
+    text-decoration: line-through; }
+    .home-list li:hover .menu--img_one, .home-list li:hover .img-two, .home-list li:hover .img-three {
+      display: block;
+      overflow: hidden; }
+
+li
+.img-two {
+  background-color: blueviolet; }
+
+.img-three {
+  background-color: red; }
+
+.nav {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  background-color: #534bae;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -10px -3px 5px #000063; }
+  .nav li a {
+    font-weight: 400; }
+
+.carousel-img {
+  position: relative;
+  background-size: cover;
+  width: 50vw;
+  top: -10rem; }
+
+@media (max-width: 600px) {
+  .card-img {
+    height: 50vh;
+    position: relative; } }

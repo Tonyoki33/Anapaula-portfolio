@@ -1,0 +1,63 @@
+.main-background{
+    width: 100vw;
+    height: 100vh;
+    background-color: $darkblue;
+}
+
+.txt-container{ 
+    display: flex;
+    flex-flow: column;
+    width: 50rem;
+    height: 40rem;
+    position: absolute;
+    pointer-events: none;
+    overflow-x: visible;
+    z-index: 2;
+}
+
+.home-title{
+    position: relative;
+    background: none;
+    color: $white;
+    padding: 10rem 0 0 7rem;
+    // opacity: 0;
+}
+
+    .home-list{
+        color: $white;
+        list-style-type: none;
+        padding: 0 0 0 5rem;
+        li{
+            pointer-events: painted;
+            cursor: pointer;
+            font-size: 3rem ;
+            margin: 1.5rem 5rem;
+
+            .menu--img_one,.img-two,.img-three{
+                left: 100%;
+                top: 0;
+                width: 100%;
+                height: 100vh;
+                position: absolute;
+                overflow-x: hidden;
+                display: none;
+            }
+        }
+        li:hover{
+        text-decoration: line-through;
+        .menu--img_one,.img-two,.img-three{
+           display: block;
+           overflow: hidden;
+       }
+    }
+}  
+
+
+li 
+
+.img-two{
+    background-color: blueviolet;
+}
+.img-three{
+    background-color: red;
+}

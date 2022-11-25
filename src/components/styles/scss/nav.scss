@@ -1,0 +1,17 @@
+.nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background-color: $lightblue;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -10px -3px 5px $darkblue;
+
+    li{
+        a{
+            font-weight: 400;
+        }
+    }
+}
+
