@@ -1,5 +1,5 @@
 import React from "react";
-import MainCarousel from "./MainCarousel";
+import db from "../utils/CDN-db";
 
 const HomeMenu = () => {
   return (
@@ -10,7 +10,20 @@ const HomeMenu = () => {
           <li>
             About me
             <div className="img-two">
-              <p style={{ fontSize: "1rem", fontWeight: "400" }}>
+              <img src={db[7].img} alt="" className="main-img" />
+              <img src={db[6].img} alt="" className="main-img" />
+              <p
+                style={{
+                  backgroundColor: "black",
+                  color: "white",
+                  fontSize: "1rem",
+                  fontWeight: "400",
+                  position: "absolute",
+                  left: "0.5rem",
+                  top: "50%",
+                  padding: "2rem 4rem",
+                }}
+              >
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
                 mollitia sequi corrupti ullam nam vero officiis quisquam, iste
                 aliquid velit asperiores? Assumenda, minus laboriosam. Sit hic

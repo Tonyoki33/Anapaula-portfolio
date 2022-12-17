@@ -1,6 +1,30 @@
 @media (max-width: 600px) {
+    *{
+        overflow-x: hidden;
+    }
     .card-img {
         height: 50vh;
         position: relative;
     }
+
+    .home-title {
+        padding: 5rem 0 0 2rem;
+    }
+
+    .home-list li {
+        font-size: 2em;
+        margin: 0.5rem 0rem;
+    }
+
+
+    .home-list li .menu--img_one, .home-list li .img-two, .home-list li .img-three {
+                left: auto;
+                top: auto;
+                width: 40%;
+                height: 30vh;
+                position: absolute;
+                overflow-x: hidden;
+                display: none;
+            }
+        
 }

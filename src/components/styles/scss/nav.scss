@@ -2,11 +2,11 @@
     width: 100vw;
     height: 10vh;
     display: flex;
-    background-color: $lightblue;
+    background-color: $darkblue;
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    box-shadow: -10px -3px 5px $darkblue;
+    // box-shadow: -10px -3px 5px $darkblue;
 
     li{
         a{

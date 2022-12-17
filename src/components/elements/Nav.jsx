@@ -30,17 +30,6 @@ const Nav = () => {
           >
             Works
           </Link>
-          <Link
-            style={{
-              marginLeft: "10px",
-              color: "white",
-              textDecoration: "none",
-            }}
-            to={"/contact"}
-            relative="path"
-          >
-            Contact
-          </Link>
         </li>
       </div>
     </>

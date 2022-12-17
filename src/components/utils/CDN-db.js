@@ -1,9 +1,9 @@
 const ID = [
   {
-    URL: "1YjmFRRHik517Te-BgATVBkYybTQ-NJoZ",
+    URL: "1FstYS_OtwUZUQfkgsiWXNWjoKAy8d5xO",
   },
   {
-    URL: "1dHTSsV1_3GL61YWEcDpfNJy7jEG-vc53",
+    URL: "1jSmkF8cGTvVvpw4NfYRYOUvWgbs47e58",
   },
   {
     URL: "1YyQgqWV_lfCJPt-3meg06PsPAo6GY3m1",
@@ -15,13 +15,16 @@ const ID = [
     URL: "1nZqmcHOdS71ppIdvPOGTHxggd2Q--Kqb",
   },
   {
-    URL: "171oRgRJZR_j8-nmrHoTklg93fi21rK0T",
+    URL: "1JQ2u32m8n-L0SHc7ENg8JMof3kWlJAS5",
   },
   {
-    URL: "1uzl5UjCGH5CefQMCboRCpPIo5N45xeZm",
+    URL: "1YMN-UiqZy8iznI8zzH3RzPiZt4kRe97I",
   },
   {
     URL: "18AYN_AjZGXdE2-rF9UYso33GzCuM-NmS",
+  },
+  {
+    URL: "171oRgRJZR_j8-nmrHoTklg93fi21rK0T",
   },
 ];
 const db = [
@@ -33,10 +36,10 @@ const db = [
     name: "hans",
     img: `https://drive.google.com/uc?export=view&id=${ID[1].URL}`,
   },
-  {
-    name: "luke",
-    img: `https://drive.google.com/uc?export=view&id=${ID[2].URL}`,
-  },
+  // {
+  //   name: "luke",
+  //   img: `https://drive.google.com/uc?export=view&id=${ID[2].URL}`,
+  // },
   {
     name: "luke",
     img: `https://drive.google.com/uc?export=view&id=${ID[3].URL}`,
@@ -56,6 +59,10 @@ const db = [
   {
     name: "luke",
     img: `https://drive.google.com/uc?export=view&id=${ID[7].URL}`,
+  },
+  {
+    name: "luke",
+    img: `https://drive.google.com/uc?export=view&id=${ID[8].URL}`,
   },
 ];
 export default db;

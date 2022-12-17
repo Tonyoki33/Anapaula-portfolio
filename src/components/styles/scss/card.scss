@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: linear-gradient($darkblue,$lightblue);
+    background-color: $white;
 }
 
 .card-grid::-webkit-scrollbar{
@@ -14,6 +14,7 @@
     margin: 2rem;
     overflow: hidden;
     transition: transform 1000ms ease ;
+    border: solid 2px $darkblue;
     box-shadow: 10px 5px 5px $darkblue;
 }
 

@@ -1,7 +1,7 @@
 .main-background{
     width: 100vw;
     height: 100vh;
-    background-color: $darkblue;
+    background-color: $white;
 }
 
 .txt-container{ 
@@ -24,7 +24,7 @@
 }
 
     .home-list{
-        color: $white;
+        color: $darkblue;
         list-style-type: none;
         padding: 0 0 0 5rem;
         li{
@@ -34,9 +34,9 @@
             margin: 1.5rem 5rem;
 
             .menu--img_one,.img-two,.img-three{
-                left: 100%;
+                left: 50%;
                 top: 0;
-                width: 100%;
+                width: 150%;
                 height: 100vh;
                 position: absolute;
                 overflow-x: hidden;
@@ -46,7 +46,7 @@
         li:hover{
         text-decoration: line-through;
         .menu--img_one,.img-two,.img-three{
-           display: block;
+           display: flex;
            overflow: hidden;
        }
     }
@@ -56,7 +56,14 @@
 li 
 
 .img-two{
-    background-color: blueviolet;
+    // background-color: blueviolet;
+    display: flex;
+    .main-img{
+        border: 1px solid $darkblue;
+        position: relative; 
+        margin: 0 0.5rem;
+        padding: 1rem;   
+    }
 }
 .img-three{
     background-color: red;
